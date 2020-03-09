@@ -2,8 +2,10 @@
     "project_name": "My new website",
     "project_slug": "my_website",
     "description": "My website description",
+    "language": "en",
+    "domain": "https://example.com",
 
-    "street": "Avenue du Ritz 35",
+    "street": "Avenue du Blitz 69",
     "city": "Sion",
     "zip": "1950",
     "state": "Valais",
@@ -15,6 +17,7 @@
     "twitter": "Twitter",
     "ga": "Google Analytics ID",
     "fb_app_id": "Facebook APP id",
+    "fb_publisher": "",
     "_copy_without_render": [
         "*.html"
     ]

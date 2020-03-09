@@ -1,22 +1,22 @@
 title: {{ cookiecutter.project_name }}
 description: {{ cookiecutter.description }}
 author:
-    name: Studio ANDco Sàrl
-    twitter: ANDco_o
+    name: RapidAgileSoftware
+    twitter: {{ cookiecutter.twitter }}
 email: {{ cookiecutter.email }}
-lang: fr_CH
+lang: {{ cookiecutter.language }}
 logo: tile.png
 
 seo:
     type: Business
 
-street: "Avenue du Ritz 35"
-city: "Sion"
-zip: "1950"
-state: "Valais"
-country: "Suisse"
-latitude: "46.235885"
-longitude: "7.3578723"
+street: "{{ cookiecutter.street }}"
+city: "{{ cookiecutter.city }}"
+zip: "{{ cookiecutter.zip }}"
+state: "{{ cookiecutter.state }}"
+country: "{{ cookiecutter.country }}"
+latitude: "{{ cookiecutter.latitude }}"
+longitude: "{{ cookiecutter.longitude }}"
 
 social:
   name: {{ cookiecutter.project_name }}
@@ -27,13 +27,13 @@ twitter:
 
 facebook:
     app_id: {{ cookiecutter.fb_app_id }}
-    publisher: "https://www.facebook.com/andcohello"
+    publisher: {{ cookiecutter.fb_publisher }}
 
 google_site_verification: googleddcee30cf477c8ba
 ga: {{ cookiecutter.ga }}
 
 baseurl: ""
-url: "https://{{ cookiecutter.project_slug }}.ch"
+url: "{{ cookiecutter.domain }}"
 
 exclude:
 

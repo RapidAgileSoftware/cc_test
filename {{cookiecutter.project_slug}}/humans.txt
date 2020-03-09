@@ -3,7 +3,6 @@
 
 # TEAM
 
-    Stéphane Geiser -- Designer -- @Sonnsone
-    Gilles Crettenand -- Developper -- @gcrettenand
+    Jens Krause -- Developper
 
 
